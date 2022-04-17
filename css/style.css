@@ -357,6 +357,18 @@ body.dark .loader_line:after{
 	align-items: center;
 	justify-content: space-between;
 }
+
+@media screen and (max-width :600px){
+	.iknow_tm_hero .right .image{
+		
+		display: flex;
+		flex-direction: row;
+		max-width: 50vh;
+		justify-content: center;
+		align-items: center;
+	}	
+}
+
 .iknow_tm_mobile_menu .mobile_in .logo img{
 	max-width: 70px;
 	max-height: 50px;
